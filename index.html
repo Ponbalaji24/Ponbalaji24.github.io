@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pon Balaji K S | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --keyword-color: #ff7b72;
+            --string-color: #a5d6ff;
+            --comment-color: #8b949e;
+            --border-color: #30363d;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        h1, h2, h3 {
+            color: var(--accent-color);
+            font-weight: normal;
+        }
+        h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+        a { color: var(--accent-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .json-block {
+            background: #161b22;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            overflow-x: auto;
+        }
+        .key { color: var(--keyword-color); }
+        .string { color: var(--string-color); }
+        .comment { color: var(--comment-color); font-style: italic; }
+        .section { margin-bottom: 40px; }
+        .tag {
+            display: inline-block;
+            background: #238636;
+            color: #ffffff;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        ul { list-style-type: none; padding-left: 0; }
+        li::before { content: "> "; color: var(--keyword-color); }
+        .entry { margin-bottom: 20px; padding-left: 15px; border-left: 2px solid var(--border-color); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>&lt;Pon Balaji K S/&gt;</h1>
+        <p class="comment">// Data Analyst | Tech Enthusiast | B.E. CSE</p>
+        <p>"Collecting, cleaning, and visualizing datasets to produce clear, decision-ready insights."</p>
+
+        <div class="json-block">
+            <span class="comment">// Contact & Connect</span><br>
+            {<br>
+            &nbsp;&nbsp;<span class="key">"location"</span>: <span class="string">"Chennai, Tamil Nadu"</span>,<br>
+            &nbsp;&nbsp;<span class="key">"email"</span>: <span class="string">"<a href="mailto:PonBalaji24@gmail.com">PonBalaji24@gmail.com</a>"</span>,<br>
+            &nbsp;&nbsp;<span class="key">"phone"</span>: <span class="string">"+91 91505 72507"</span>,<br>
+            &nbsp;&nbsp;<span class="key">"github"</span>: <span class="string">"<a href="https://github.com/Ponbalaji24" target="_blank">github.com/Ponbalaji24</a>"</span>,<br>
+            &nbsp;&nbsp;<span class="key">"linkedin"</span>: <span class="string">"<a href="https://linkedin.com/in/pon-balaji-728560272" target="_blank">linkedin.com/in/pon-balaji-728560272</a>"</span><br>
+            }
+        </div>
+
+        <div class="section">
+            <h2>~/About_Me</h2>
+            <p>I am a B.E. Computer Science and Engineering student (Class of 2027) at PERI Institute of Technology. I am passionate about data-driven problem solving and currently seeking an entry-level Data Analyst role. My focus is on leveraging modern analytics and statistical methods to transform raw data into actionable intelligence.</p>
+        </div>
+
+        <div class="section">
+            <h2>~/Tech_Stack</h2>
+            <p>
+                <span class="tag">Python</span> <span class="tag">SQL</span> <span class="tag">MySQL</span>
+                <span class="tag">Pandas</span> <span class="tag">NumPy</span> <span class="tag">Power BI</span>
+                <span class="tag">Matplotlib</span> <span class="tag">Seaborn</span> <span class="tag">Advanced Excel</span>
+                <span class="tag">Git</span> <span class="tag">GitHub</span> <span class="tag">Figma</span>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>~/Experience_Log</h2>
+            <div class="entry">
+                <h3>[Data Analyst Intern] @ Infivion Technologies</h3>
+                <p class="comment">Execution Time: 22 Jun 2026 - 06 Jul 2026</p>
+                <ul>
+                    <li><strong>Analytics:</strong> Analyzed smart agriculture market data in Excel and Power BI to identify demand and growth patterns.</li>
+                    <li><strong>Visualization:</strong> Built interactive dashboards focusing on market trends, regional opportunities, and customer segments.</li>
+                    <li><strong>Strategy:</strong> Conducted competitor analysis and delivered actionable recommendations to the business team.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <h3>[Cyber Security Analyst Intern] @ Acmegrade Ltd</h3>
+                <p class="comment">Execution Time: 08 Jul 2025 - 08 Aug 2025</p>
+                <ul>
+                    <li><strong>Operations:</strong> Supported day-to-day security monitoring, reviewing system alerts and logs.</li>
+                    <li><strong>Analysis:</strong> Assisted with vulnerability assessments and documented findings for remediation tracking.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>~/Project_Repository</h2>
+            <div class="entry">
+                <h3>📁 Smart Agriculture Analytics Market Study</h3>
+                <p><strong>Tech:</strong> Power BI, Excel, Market Research</p>
+                <p><strong>Details:</strong> Researched the smart agriculture market, mapping out customer segments and the competitor landscape. Built a dynamic Power BI dashboard to highlight trends, regional opportunities, and challenges.</p>
+                <p><strong>Output:</strong> Delivered data-driven insights and IoT product recommendations for strategic business decisions.</p>
+            </div>
+            <div class="entry">
+                <h3>📁 Student Result Management System</h3>
+                <p><strong>Tech:</strong> Python, MySQL, Database Design</p>
+                <p><strong>Details:</strong> Developed a complete Python application designed to securely store, update, and retrieve student academic records. Designed the MySQL backend schema and implemented core logic.</p>
+                <p><strong>Output:</strong> Improved data accuracy and significantly reduced manual record-keeping errors for faculty and students.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>~/Education_&_Certifications</h2>
+            <div class="entry">
+                <h3>Degree</h3>
+                <p>B.E. Computer Science and Engineering | PERI Institute of Technology, Chennai (2023-2027) | <strong>CGPA:</strong> 8.1/10</p>
+            </div>
+            <div class="entry">
+                <h3>Specialized Training</h3>
+                <p><strong>Data Analyst Training with Python</strong> (17 Feb 2026 - 13 Aug 2026): Structured training in EDA, data visualization, and statistical methods using Pandas, NumPy, and Matplotlib on real-world datasets.</p>
+            </div>
+            <div class="entry">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>[Verified] Basics of Python - UniAthena, Jul 2025</li>
+                    <li>[Verified] Cybersecurity Job Simulations - Forage, Jul-Sep 2025</li>
+                    <li>[Verified] Introduction to Cybersecurity Awareness - HP LIFE, 2025</li>
+                    <li>[Verified] Cybersecurity Threats Awareness - 2025</li>
+                </ul>
+            </div>
+        </div>
+        <p class="comment">Status: Available for entry-level opportunities. End of file.</p>
+    </div>
+</body>
+</html>
